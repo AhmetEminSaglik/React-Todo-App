@@ -3,8 +3,8 @@ import './App.css'
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
-  // "YOUR_SUPABASE_API Settings"
-  // , "YOUR_SUPABASE_PROJECT_API_KEYS"
+  "YOUR_SUPABASE_API Settings"
+  , "YOUR_SUPABASE_PROJECT_API_KEYS"
 );
 
 function App() {
